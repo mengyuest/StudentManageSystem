@@ -1,0 +1,446 @@
+﻿生成启动时间为 2015/5/15 2:04:26。
+     1>项目“F:\Users\MENG\Documents\visual studio 2012\Projects\StudentManagementSystem\StudentManagementSystem\StudentManagementSystem.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt Course.cpp CourseList.cpp Login.cpp Main.cpp Student.cpp StudentList.cpp
+         StudentList.cpp
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\studentlist.h(5): error C2146: 语法错误: 缺少“;”(在标识符“level”的前面)
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\studentlist.h(5): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\studentlist.h(6): error C2143: 语法错误 : 缺少“;”(在“<”的前面)
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\studentlist.h(6): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\studentlist.h(6): error C2238: 意外的标记位于“;”之前
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\studentlist.h(12): error C2061: 语法错误: 标识符“Level”
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\studentlist.h(13): error C2146: 语法错误: 缺少“;”(在标识符“CheckLevel”的前面)
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\studentlist.h(13): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\studentlist.h(13): warning C4183: “CheckLevel”: 缺少返回类型；假定为返回“int”的成员函数
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\student.h(28): error C2146: 语法错误: 缺少“;”(在标识符“name”的前面)
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\student.h(28): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\student.h(32): error C2146: 语法错误: 缺少“;”(在标识符“nation”的前面)
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\student.h(32): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\student.h(34): error C2143: 语法错误 : 缺少“;”(在“<”的前面)
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\student.h(34): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\student.h(34): error C2238: 意外的标记位于“;”之前
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\student.h(43): error C2061: 语法错误: 标识符“string”
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\student.h(47): error C2061: 语法错误: 标识符“string”
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\student.h(49): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\student.h(49): error C2146: 语法错误: 缺少“;”(在标识符“getName”的前面)
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\student.h(49): warning C4183: “getName”: 缺少返回类型；假定为返回“int”的成员函数
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\student.h(53): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\student.h(53): error C2146: 语法错误: 缺少“;”(在标识符“getNation”的前面)
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\student.h(53): error C2086: “const int CStudent::string”: 重定义
+                 f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\student.h(49) : 参见“CStudent::string”的声明
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\student.h(53): warning C4183: “getNation”: 缺少返回类型；假定为返回“int”的成员函数
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\student.h(55): error C2061: 语法错误: 标识符“string”
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\student.h(56): error C2061: 语法错误: 标识符“string”
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\studentlist.cpp(15): error C2511: “void CStudentList::SetLevel(Level &)”:“CStudentList”中没有找到重载的成员函数
+                 f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\studentlist.h(3) : 参见“CStudentList”的声明
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\studentlist.cpp(20): error C2556: “Feedback CStudentList::CheckLevel(void)”: 重载函数与“int CStudentList::CheckLevel(void)”只是在返回类型上不同
+                 f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\studentlist.h(13) : 参见“CStudentList::CheckLevel”的声明
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\studentlist.cpp(20): error C2371: “CStudentList::CheckLevel”: 重定义；不同的基类型
+                 f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\studentlist.h(13) : 参见“CStudentList::CheckLevel”的声明
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\studentlist.cpp(21): error C2065: “level”: 未声明的标识符
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\studentlist.cpp(34): error C2264: “CStudentList::CheckLevel”: 函数定义或声明中有错误；未调用函数
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\studentlist.cpp(53): error C2039: “StudentList”: 不是“CStudentList”的成员
+                 f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\studentlist.h(3) : 参见“CStudentList”的声明
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\studentlist.cpp(53): error C2228: “.find”的左边必须有类/结构/联合
+                 f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\studentlist.h(3) : 参见“CStudentList”的声明
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\studentlist.cpp(53): error C2228: “.end”的左边必须有类/结构/联合
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\studentlist.cpp(72): error C2660: “CStudent::SetName”: 函数不接受 1 个参数
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\studentlist.cpp(116): error C2660: “CStudent::SetNation”: 函数不接受 1 个参数
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\studentlist.cpp(123): error C2039: “StudentList”: 不是“CStudentList”的成员
+                 f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\studentlist.h(3) : 参见“CStudentList”的声明
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\studentlist.cpp(123): error C2228: “.insert”的左边必须有类/结构/联合
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\studentlist.cpp(142): error C2264: “CStudentList::CheckLevel”: 函数定义或声明中有错误；未调用函数
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\studentlist.cpp(147): error C2039: “StudentList”: 不是“CStudentList”的成员
+                 f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\studentlist.h(3) : 参见“CStudentList”的声明
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\studentlist.cpp(147): error C2228: “.find”的左边必须有类/结构/联合
+                 f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\studentlist.h(3) : 参见“CStudentList”的声明
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\studentlist.cpp(147): error C2228: “.end”的左边必须有类/结构/联合
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\studentlist.cpp(178): error C2039: “StudentList”: 不是“CStudentList”的成员
+                 f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\studentlist.h(3) : 参见“CStudentList”的声明
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\studentlist.cpp(178): error C2228: “.SetName”的左边必须有类/结构/联合
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\studentlist.cpp(186): error C2039: “StudentList”: 不是“CStudentList”的成员
+                 f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\studentlist.h(3) : 参见“CStudentList”的声明
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\studentlist.cpp(186): error C2228: “.SetGender”的左边必须有类/结构/联合
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\studentlist.cpp(190): error C2039: “StudentList”: 不是“CStudentList”的成员
+                 f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\studentlist.h(3) : 参见“CStudentList”的声明
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\studentlist.cpp(190): error C2228: “.SetGender”的左边必须有类/结构/联合
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\studentlist.cpp(202): error C2039: “StudentList”: 不是“CStudentList”的成员
+                 f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\studentlist.h(3) : 参见“CStudentList”的声明
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\studentlist.cpp(202): error C2228: “.SetAge”的左边必须有类/结构/联合
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\studentlist.cpp(218): error C2039: “StudentList”: 不是“CStudentList”的成员
+                 f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\studentlist.h(3) : 参见“CStudentList”的声明
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\studentlist.cpp(218): error C2228: “.SetNation”的左边必须有类/结构/联合
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\studentlist.cpp(237): error C2264: “CStudentList::CheckLevel”: 函数定义或声明中有错误；未调用函数
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\studentlist.cpp(242): error C2039: “StudentList”: 不是“CStudentList”的成员
+                 f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\studentlist.h(3) : 参见“CStudentList”的声明
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\studentlist.cpp(242): error C2228: “.find”的左边必须有类/结构/联合
+                 f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\studentlist.h(3) : 参见“CStudentList”的声明
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\studentlist.cpp(242): error C2228: “.end”的左边必须有类/结构/联合
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\studentlist.cpp(249): error C2039: “StudentList”: 不是“CStudentList”的成员
+                 f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\studentlist.h(3) : 参见“CStudentList”的声明
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\studentlist.cpp(249): error C2228: “.erase”的左边必须有类/结构/联合
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\studentlist.cpp(263): error C2264: “CStudentList::CheckLevel”: 函数定义或声明中有错误；未调用函数
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\studentlist.cpp(268): error C2039: “StudentList”: 不是“CStudentList”的成员
+                 f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\studentlist.h(3) : 参见“CStudentList”的声明
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\studentlist.cpp(268): error C2228: “.find”的左边必须有类/结构/联合
+                 f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\studentlist.h(3) : 参见“CStudentList”的声明
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\studentlist.cpp(268): error C2228: “.end”的左边必须有类/结构/联合
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\studentlist.cpp(275): error C2039: “StudentList”: 不是“CStudentList”的成员
+                 f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\studentlist.h(3) : 参见“CStudentList”的声明
+         Student.cpp
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\student.h(28): error C2146: 语法错误: 缺少“;”(在标识符“name”的前面)
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\student.h(28): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\student.h(32): error C2146: 语法错误: 缺少“;”(在标识符“nation”的前面)
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\student.h(32): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\student.h(34): error C2143: 语法错误 : 缺少“;”(在“<”的前面)
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\student.h(34): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\student.h(34): error C2238: 意外的标记位于“;”之前
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\student.h(43): error C2061: 语法错误: 标识符“string”
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\student.h(47): error C2061: 语法错误: 标识符“string”
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\student.h(49): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\student.h(49): error C2146: 语法错误: 缺少“;”(在标识符“getName”的前面)
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\student.h(49): warning C4183: “getName”: 缺少返回类型；假定为返回“int”的成员函数
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\student.h(53): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\student.h(53): error C2146: 语法错误: 缺少“;”(在标识符“getNation”的前面)
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\student.h(53): error C2086: “const int CStudent::string”: 重定义
+                 f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\student.h(49) : 参见“CStudent::string”的声明
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\student.h(53): warning C4183: “getNation”: 缺少返回类型；假定为返回“int”的成员函数
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\student.h(55): error C2061: 语法错误: 标识符“string”
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\student.h(56): error C2061: 语法错误: 标识符“string”
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\student.cpp(10): error C2758: “CStudent::string”: 必须在构造函数基/成员初始值设定项列表中初始化
+                 f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\student.h(49) : 参见“CStudent::string”的声明
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\student.cpp(31): error C2065: “theName”: 未声明的标识符
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\student.cpp(31): error C2597: 对非静态成员“CStudent::string”的非法引用
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\student.cpp(31): error C3867: “CStudent::string”: 函数调用缺少参数列表；请使用“&CStudent::string”创建指向成员的指针
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\student.cpp(32): error C2448: “CStudent::SetName”: 函数样式初始值设定项类似函数定义
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\student.cpp(55): error C2065: “theNation”: 未声明的标识符
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\student.cpp(55): error C2597: 对非静态成员“CStudent::string”的非法引用
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\student.cpp(55): error C3867: “CStudent::string”: 函数调用缺少参数列表；请使用“&CStudent::string”创建指向成员的指针
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\student.cpp(56): error C2448: “CStudent::SetNation”: 函数样式初始值设定项类似函数定义
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\student.cpp(62): error C2556: “const std::string CStudent::getName(void)”: 重载函数与“int CStudent::getName(void)”只是在返回类型上不同
+                 f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\student.h(49) : 参见“CStudent::getName”的声明
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\student.cpp(62): error C2373: “CStudent::getName”: 重定义；不同的类型修饰符
+                 f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\student.h(49) : 参见“CStudent::getName”的声明
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\student.cpp(63): error C2065: “name”: 未声明的标识符
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\student.cpp(81): error C2556: “const std::string CStudent::getNation(void)”: 重载函数与“int CStudent::getNation(void)”只是在返回类型上不同
+                 f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\student.h(53) : 参见“CStudent::getNation”的声明
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\student.cpp(81): error C2373: “CStudent::getNation”: 重定义；不同的类型修饰符
+                 f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\student.h(53) : 参见“CStudent::getNation”的声明
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\student.cpp(82): error C2065: “nation”: 未声明的标识符
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\student.cpp(85): error C2597: 对非静态成员“CStudent::string”的非法引用
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\student.cpp(85): error C2146: 语法错误: 缺少“)”(在标识符“courseName”的前面)
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\student.cpp(85): error C2761: “void CStudent::SelectNewCourse(void)”: 不允许成员函数重新声明
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\student.cpp(85): error C2059: 语法错误:“)”
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\student.cpp(86): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\student.cpp(86): error C2447: “{”: 缺少函数标题(是否是老式的形式表?)
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\student.cpp(93): error C2597: 对非静态成员“CStudent::string”的非法引用
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\student.cpp(93): error C2146: 语法错误: 缺少“)”(在标识符“courseName”的前面)
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\student.cpp(93): error C2761: “void CStudent::DeleteCourse(void)”: 不允许成员函数重新声明
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\student.cpp(93): error C2059: 语法错误:“)”
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\student.cpp(94): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\student.cpp(94): error C2447: “{”: 缺少函数标题(是否是老式的形式表?)
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\student.cpp(110): error C2974: 'std::vector' : 模板 对于 '_Ty'是无效参数，应为类型
+                 d:\program files (x86)\microsoft visual studio 11.0\vc\include\vector(655) : 参见“std::vector”的声明
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\student.cpp(112): error C2065: “selectedCourse”: 未声明的标识符
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\student.cpp(112): error C2228: “.begin”的左边必须有类/结构/联合
+                 类型是“'unknown-type'”
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\student.cpp(112): error C2228: “.end”的左边必须有类/结构/联合
+                 类型是“'unknown-type'”
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\student.cpp(123): error C2065: “name”: 未声明的标识符
+         Main.cpp
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\course.h(5): error C2146: 语法错误: 缺少“;”(在标识符“level”的前面)
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\course.h(5): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\course.h(8): error C2146: 语法错误: 缺少“;”(在标识符“name”的前面)
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\course.h(8): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\course.h(15): error C2143: 语法错误 : 缺少“;”(在“<”的前面)
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\course.h(15): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\course.h(15): error C2238: 意外的标记位于“;”之前
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\course.h(16): error C2061: 语法错误: 标识符“Level”
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\course.h(17): error C2146: 语法错误: 缺少“;”(在标识符“CheckLevel”的前面)
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\course.h(17): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\course.h(17): warning C4183: “CheckLevel”: 缺少返回类型；假定为返回“int”的成员函数
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\course.h(18): error C2146: 语法错误: 缺少“;”(在标识符“CheckLevelNoWarning”的前面)
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\course.h(18): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\course.h(18): warning C4183: “CheckLevelNoWarning”: 缺少返回类型；假定为返回“int”的成员函数
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\course.h(23): error C2061: 语法错误: 标识符“string”
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\course.h(26): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\course.h(26): error C2146: 语法错误: 缺少“;”(在标识符“getName”的前面)
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\course.h(26): warning C4183: “getName”: 缺少返回类型；假定为返回“int”的成员函数
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\courselist.h(5): error C2146: 语法错误: 缺少“;”(在标识符“level”的前面)
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\courselist.h(5): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\courselist.h(6): error C2143: 语法错误 : 缺少“;”(在“<”的前面)
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\courselist.h(6): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\courselist.h(6): error C2238: 意外的标记位于“;”之前
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\courselist.h(12): error C2061: 语法错误: 标识符“Level”
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\courselist.h(13): error C2146: 语法错误: 缺少“;”(在标识符“CheckLevel”的前面)
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\courselist.h(13): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\courselist.h(13): warning C4183: “CheckLevel”: 缺少返回类型；假定为返回“int”的成员函数
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\login.h(6): error C2146: 语法错误: 缺少“;”(在标识符“keyword”的前面)
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\login.h(6): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\login.h(12): error C2061: 语法错误: 标识符“string”
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\login.h(14): error C2146: 语法错误: 缺少“;”(在标识符“AnalysisLevel”的前面)
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\login.h(14): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\login.h(14): warning C4183: “AnalysisLevel”: 缺少返回类型；假定为返回“int”的成员函数
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\student.h(28): error C2146: 语法错误: 缺少“;”(在标识符“name”的前面)
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\student.h(28): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\student.h(32): error C2146: 语法错误: 缺少“;”(在标识符“nation”的前面)
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\student.h(32): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\student.h(34): error C2143: 语法错误 : 缺少“;”(在“<”的前面)
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\student.h(34): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\student.h(34): error C2238: 意外的标记位于“;”之前
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\student.h(43): error C2061: 语法错误: 标识符“string”
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\student.h(47): error C2061: 语法错误: 标识符“string”
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\student.h(49): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\student.h(49): error C2146: 语法错误: 缺少“;”(在标识符“getName”的前面)
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\student.h(49): warning C4183: “getName”: 缺少返回类型；假定为返回“int”的成员函数
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\student.h(53): error C2327: “CStudent::string”: 不是类型名称、静态或枚举数
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\student.h(53): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\student.h(53): error C2146: 语法错误: 缺少“;”(在标识符“getNation”的前面)
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\student.h(53): error C2086: “const int CStudent::string”: 重定义
+                 f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\student.h(49) : 参见“CStudent::string”的声明
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\student.h(53): warning C4183: “getNation”: 缺少返回类型；假定为返回“int”的成员函数
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\student.h(55): error C2327: “CStudent::string”: 不是类型名称、静态或枚举数
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\student.h(55): error C2061: 语法错误: 标识符“string”
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\student.h(56): error C2327: “CStudent::string”: 不是类型名称、静态或枚举数
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\student.h(56): error C2061: 语法错误: 标识符“string”
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\studentlist.h(6): error C2143: 语法错误 : 缺少“;”(在“<”的前面)
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\studentlist.h(6): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\studentlist.h(6): error C2238: 意外的标记位于“;”之前
+         Login.cpp
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\login.h(6): error C2146: 语法错误: 缺少“;”(在标识符“keyword”的前面)
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\login.h(6): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\login.h(12): error C2061: 语法错误: 标识符“string”
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\login.h(14): error C2146: 语法错误: 缺少“;”(在标识符“AnalysisLevel”的前面)
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\login.h(14): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\login.h(14): warning C4183: “AnalysisLevel”: 缺少返回类型；假定为返回“int”的成员函数
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\student.h(28): error C2146: 语法错误: 缺少“;”(在标识符“name”的前面)
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\student.h(28): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\student.h(32): error C2146: 语法错误: 缺少“;”(在标识符“nation”的前面)
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\student.h(32): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\student.h(34): error C2143: 语法错误 : 缺少“;”(在“<”的前面)
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\student.h(34): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\student.h(34): error C2238: 意外的标记位于“;”之前
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\student.h(43): error C2061: 语法错误: 标识符“string”
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\student.h(47): error C2061: 语法错误: 标识符“string”
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\student.h(49): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\student.h(49): error C2146: 语法错误: 缺少“;”(在标识符“getName”的前面)
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\student.h(49): warning C4183: “getName”: 缺少返回类型；假定为返回“int”的成员函数
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\student.h(53): error C2327: “CStudent::string”: 不是类型名称、静态或枚举数
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\student.h(53): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\student.h(53): error C2146: 语法错误: 缺少“;”(在标识符“getNation”的前面)
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\student.h(53): error C2086: “const int CStudent::string”: 重定义
+                 f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\student.h(49) : 参见“CStudent::string”的声明
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\student.h(53): warning C4183: “getNation”: 缺少返回类型；假定为返回“int”的成员函数
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\student.h(55): error C2327: “CStudent::string”: 不是类型名称、静态或枚举数
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\student.h(55): error C2061: 语法错误: 标识符“string”
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\student.h(56): error C2327: “CStudent::string”: 不是类型名称、静态或枚举数
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\student.h(56): error C2061: 语法错误: 标识符“string”
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\login.cpp(9): error C2065: “keyword”: 未声明的标识符
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\login.cpp(17): error C2511: “void CLogin::SetKeyword(std::string &)”:“CLogin”中没有找到重载的成员函数
+                 f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\login.h(3) : 参见“CLogin”的声明
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\login.cpp(22): error C2556: “Level CLogin::AnalysisLevel(void)”: 重载函数与“int CLogin::AnalysisLevel(void)”只是在返回类型上不同
+                 f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\login.h(14) : 参见“CLogin::AnalysisLevel”的声明
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\login.cpp(22): error C2371: “CLogin::AnalysisLevel”: 重定义；不同的基类型
+                 f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\login.h(14) : 参见“CLogin::AnalysisLevel”的声明
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\login.cpp(23): error C2065: “keyword”: 未声明的标识符
+         CourseList.cpp
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\courselist.h(5): error C2146: 语法错误: 缺少“;”(在标识符“level”的前面)
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\courselist.h(5): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\courselist.h(6): error C2143: 语法错误 : 缺少“;”(在“<”的前面)
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\courselist.h(6): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\courselist.h(6): error C2238: 意外的标记位于“;”之前
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\courselist.h(12): error C2061: 语法错误: 标识符“Level”
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\courselist.h(13): error C2146: 语法错误: 缺少“;”(在标识符“CheckLevel”的前面)
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\courselist.h(13): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\courselist.h(13): warning C4183: “CheckLevel”: 缺少返回类型；假定为返回“int”的成员函数
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\course.h(5): error C2146: 语法错误: 缺少“;”(在标识符“level”的前面)
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\course.h(5): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\course.h(8): error C2146: 语法错误: 缺少“;”(在标识符“name”的前面)
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\course.h(8): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\course.h(15): error C2143: 语法错误 : 缺少“;”(在“<”的前面)
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\course.h(15): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\course.h(15): error C2238: 意外的标记位于“;”之前
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\course.h(16): error C2061: 语法错误: 标识符“Level”
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\course.h(17): error C2146: 语法错误: 缺少“;”(在标识符“CheckLevel”的前面)
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\course.h(17): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\course.h(17): warning C4183: “CheckLevel”: 缺少返回类型；假定为返回“int”的成员函数
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\course.h(18): error C2146: 语法错误: 缺少“;”(在标识符“CheckLevelNoWarning”的前面)
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\course.h(18): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\course.h(18): warning C4183: “CheckLevelNoWarning”: 缺少返回类型；假定为返回“int”的成员函数
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\course.h(23): error C2061: 语法错误: 标识符“string”
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\course.h(26): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\course.h(26): error C2146: 语法错误: 缺少“;”(在标识符“getName”的前面)
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\course.h(26): warning C4183: “getName”: 缺少返回类型；假定为返回“int”的成员函数
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\student.h(28): error C2146: 语法错误: 缺少“;”(在标识符“name”的前面)
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\student.h(28): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\student.h(32): error C2146: 语法错误: 缺少“;”(在标识符“nation”的前面)
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\student.h(32): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\student.h(34): error C2143: 语法错误 : 缺少“;”(在“<”的前面)
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\student.h(34): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\student.h(34): error C2238: 意外的标记位于“;”之前
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\student.h(43): error C2061: 语法错误: 标识符“string”
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\student.h(47): error C2061: 语法错误: 标识符“string”
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\student.h(49): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\student.h(49): error C2146: 语法错误: 缺少“;”(在标识符“getName”的前面)
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\student.h(49): warning C4183: “getName”: 缺少返回类型；假定为返回“int”的成员函数
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\student.h(53): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\student.h(53): error C2146: 语法错误: 缺少“;”(在标识符“getNation”的前面)
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\student.h(53): error C2086: “const int CStudent::string”: 重定义
+                 f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\student.h(49) : 参见“CStudent::string”的声明
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\student.h(53): warning C4183: “getNation”: 缺少返回类型；假定为返回“int”的成员函数
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\student.h(55): error C2061: 语法错误: 标识符“string”
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\student.h(56): error C2061: 语法错误: 标识符“string”
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\courselist.cpp(15): error C2511: “void CCourseList::SetLevel(Level &)”:“CCourseList”中没有找到重载的成员函数
+                 f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\courselist.h(3) : 参见“CCourseList”的声明
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\courselist.cpp(20): error C2556: “Feedback CCourseList::CheckLevel(void)”: 重载函数与“int CCourseList::CheckLevel(void)”只是在返回类型上不同
+                 f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\courselist.h(13) : 参见“CCourseList::CheckLevel”的声明
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\courselist.cpp(20): error C2371: “CCourseList::CheckLevel”: 重定义；不同的基类型
+                 f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\courselist.h(13) : 参见“CCourseList::CheckLevel”的声明
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\courselist.cpp(21): error C2065: “level”: 未声明的标识符
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\courselist.cpp(34): error C2264: “CCourseList::CheckLevel”: 函数定义或声明中有错误；未调用函数
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\courselist.cpp(49): error C2039: “CourseList”: 不是“CCourseList”的成员
+                 f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\courselist.h(3) : 参见“CCourseList”的声明
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\courselist.cpp(49): error C2228: “.find”的左边必须有类/结构/联合
+                 f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\courselist.h(3) : 参见“CCourseList”的声明
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\courselist.cpp(49): error C2228: “.end”的左边必须有类/结构/联合
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\courselist.cpp(68): error C2660: “CCourse::SetName”: 函数不接受 1 个参数
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\courselist.cpp(75): error C2039: “CourseList”: 不是“CCourseList”的成员
+                 f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\courselist.h(3) : 参见“CCourseList”的声明
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\courselist.cpp(75): error C2228: “.insert”的左边必须有类/结构/联合
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\courselist.cpp(94): error C2264: “CCourseList::CheckLevel”: 函数定义或声明中有错误；未调用函数
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\courselist.cpp(99): error C2039: “CourseList”: 不是“CCourseList”的成员
+                 f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\courselist.h(3) : 参见“CCourseList”的声明
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\courselist.cpp(99): error C2228: “.find”的左边必须有类/结构/联合
+                 f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\courselist.h(3) : 参见“CCourseList”的声明
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\courselist.cpp(99): error C2228: “.end”的左边必须有类/结构/联合
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\courselist.cpp(117): error C2039: “CourseList”: 不是“CCourseList”的成员
+                 f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\courselist.h(3) : 参见“CCourseList”的声明
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\courselist.cpp(117): error C2228: “.SetName”的左边必须有类/结构/联合
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\courselist.cpp(131): error C2264: “CCourseList::CheckLevel”: 函数定义或声明中有错误；未调用函数
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\courselist.cpp(136): error C2039: “CourseList”: 不是“CCourseList”的成员
+                 f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\courselist.h(3) : 参见“CCourseList”的声明
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\courselist.cpp(136): error C2228: “.find”的左边必须有类/结构/联合
+                 f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\courselist.h(3) : 参见“CCourseList”的声明
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\courselist.cpp(136): error C2228: “.end”的左边必须有类/结构/联合
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\courselist.cpp(144): error C2039: “CourseList”: 不是“CCourseList”的成员
+                 f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\courselist.h(3) : 参见“CCourseList”的声明
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\courselist.cpp(144): error C2228: “.erase”的左边必须有类/结构/联合
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\courselist.cpp(158): error C2264: “CCourseList::CheckLevel”: 函数定义或声明中有错误；未调用函数
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\courselist.cpp(163): error C2039: “CourseList”: 不是“CCourseList”的成员
+                 f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\courselist.h(3) : 参见“CCourseList”的声明
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\courselist.cpp(163): error C2228: “.find”的左边必须有类/结构/联合
+                 f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\courselist.h(3) : 参见“CCourseList”的声明
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\courselist.cpp(163): error C2228: “.end”的左边必须有类/结构/联合
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\courselist.cpp(172): error C2039: “CourseList”: 不是“CCourseList”的成员
+                 f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\courselist.h(3) : 参见“CCourseList”的声明
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\courselist.cpp(177): error C2039: “gradeList”: 不是“CCourse”的成员
+                 f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\course.h(3) : 参见“CCourse”的声明
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\courselist.cpp(177): error C2228: “.begin”的左边必须有类/结构/联合
+                 f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\course.h(3) : 参见“CCourse”的声明
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\courselist.cpp(177): error C2228: “.end”的左边必须有类/结构/联合
+         Course.cpp
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\course.h(5): error C2146: 语法错误: 缺少“;”(在标识符“level”的前面)
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\course.h(5): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\course.h(8): error C2146: 语法错误: 缺少“;”(在标识符“name”的前面)
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\course.h(8): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\course.h(15): error C2143: 语法错误 : 缺少“;”(在“<”的前面)
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\course.h(15): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\course.h(15): error C2238: 意外的标记位于“;”之前
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\course.h(16): error C2061: 语法错误: 标识符“Level”
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\course.h(17): error C2146: 语法错误: 缺少“;”(在标识符“CheckLevel”的前面)
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\course.h(17): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\course.h(17): warning C4183: “CheckLevel”: 缺少返回类型；假定为返回“int”的成员函数
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\course.h(18): error C2146: 语法错误: 缺少“;”(在标识符“CheckLevelNoWarning”的前面)
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\course.h(18): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\course.h(18): warning C4183: “CheckLevelNoWarning”: 缺少返回类型；假定为返回“int”的成员函数
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\course.h(23): error C2061: 语法错误: 标识符“string”
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\course.h(26): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\course.h(26): error C2146: 语法错误: 缺少“;”(在标识符“getName”的前面)
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\course.h(26): warning C4183: “getName”: 缺少返回类型；假定为返回“int”的成员函数
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\student.h(28): error C2146: 语法错误: 缺少“;”(在标识符“name”的前面)
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\student.h(28): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\student.h(32): error C2146: 语法错误: 缺少“;”(在标识符“nation”的前面)
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\student.h(32): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\student.h(34): error C2143: 语法错误 : 缺少“;”(在“<”的前面)
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\student.h(34): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\student.h(34): error C2238: 意外的标记位于“;”之前
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\student.h(43): error C2061: 语法错误: 标识符“string”
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\student.h(47): error C2061: 语法错误: 标识符“string”
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\student.h(49): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\student.h(49): error C2146: 语法错误: 缺少“;”(在标识符“getName”的前面)
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\student.h(49): warning C4183: “getName”: 缺少返回类型；假定为返回“int”的成员函数
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\student.h(53): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\student.h(53): error C2146: 语法错误: 缺少“;”(在标识符“getNation”的前面)
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\student.h(53): error C2086: “const int CStudent::string”: 重定义
+                 f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\student.h(49) : 参见“CStudent::string”的声明
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\student.h(53): warning C4183: “getNation”: 缺少返回类型；假定为返回“int”的成员函数
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\student.h(55): error C2061: 语法错误: 标识符“string”
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\student.h(56): error C2061: 语法错误: 标识符“string”
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\course.cpp(9): error C2758: “CCourse::string”: 必须在构造函数基/成员初始值设定项列表中初始化
+                 f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\course.h(26) : 参见“CCourse::string”的声明
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\course.cpp(12): error C2065: “theLevel”: 未声明的标识符
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\course.cpp(13): error C2448: “CCourse::SetLevel”: 函数样式初始值设定项类似函数定义
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\course.cpp(18): error C2556: “Feedback CCourse::CheckLevel(void)”: 重载函数与“int CCourse::CheckLevel(void)”只是在返回类型上不同
+                 f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\course.h(17) : 参见“CCourse::CheckLevel”的声明
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\course.cpp(18): error C2371: “CCourse::CheckLevel”: 重定义；不同的基类型
+                 f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\course.h(17) : 参见“CCourse::CheckLevel”的声明
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\course.cpp(19): error C2065: “level”: 未声明的标识符
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\course.cpp(31): error C2556: “Feedback CCourse::CheckLevelNoWarning(void)”: 重载函数与“int CCourse::CheckLevelNoWarning(void)”只是在返回类型上不同
+                 f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\course.h(18) : 参见“CCourse::CheckLevelNoWarning”的声明
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\course.cpp(31): error C2371: “CCourse::CheckLevelNoWarning”: 重定义；不同的基类型
+                 f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\course.h(18) : 参见“CCourse::CheckLevelNoWarning”的声明
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\course.cpp(32): error C2065: “level”: 未声明的标识符
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\course.cpp(50): error C2264: “CCourse::CheckLevel”: 函数定义或声明中有错误；未调用函数
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\course.cpp(54): error C2065: “theName”: 未声明的标识符
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\course.cpp(54): error C2597: 对非静态成员“CCourse::string”的非法引用
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\course.cpp(54): error C3867: “CCourse::string”: 函数调用缺少参数列表；请使用“&CCourse::string”创建指向成员的指针
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\course.cpp(55): error C2448: “CCourse::SetName”: 函数样式初始值设定项类似函数定义
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\course.cpp(65): error C2556: “const std::string CCourse::getName(void)”: 重载函数与“int CCourse::getName(void)”只是在返回类型上不同
+                 f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\course.h(26) : 参见“CCourse::getName”的声明
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\course.cpp(65): error C2373: “CCourse::getName”: 重定义；不同的类型修饰符
+                 f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\course.h(26) : 参见“CCourse::getName”的声明
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\course.cpp(66): error C2065: “name”: 未声明的标识符
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\course.cpp(71): error C2264: “CCourse::CheckLevelNoWarning”: 函数定义或声明中有错误；未调用函数
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\course.cpp(73): error C2065: “gradeList”: 未声明的标识符
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\course.cpp(73): error C2228: “.find”的左边必须有类/结构/联合
+                 类型是“'unknown-type'”
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\course.cpp(73): error C2228: “.end”的左边必须有类/结构/联合
+                 类型是“'unknown-type'”
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\course.cpp(74): error C2065: “gradeList”: 未声明的标识符
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\course.cpp(86): error C2065: “gradeList”: 未声明的标识符
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\course.cpp(86): error C2228: “.find”的左边必须有类/结构/联合
+                 类型是“'unknown-type'”
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\course.cpp(86): error C2228: “.end”的左边必须有类/结构/联合
+                 类型是“'unknown-type'”
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\course.cpp(87): error C2065: “gradeList”: 未声明的标识符
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\course.cpp(102): error C2264: “CCourse::CheckLevel”: 函数定义或声明中有错误；未调用函数
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\course.cpp(104): error C2065: “gradeList”: 未声明的标识符
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\course.cpp(104): error C2228: “.find”的左边必须有类/结构/联合
+                 类型是“'unknown-type'”
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\course.cpp(104): error C2228: “.end”的左边必须有类/结构/联合
+                 类型是“'unknown-type'”
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\course.cpp(108): error C2065: “gradeList”: 未声明的标识符
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\course.cpp(108): error C2228: “.insert”的左边必须有类/结构/联合
+                 类型是“'unknown-type'”
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\course.cpp(134): error C2264: “CCourse::CheckLevel”: 函数定义或声明中有错误；未调用函数
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\course.cpp(136): error C2065: “gradeList”: 未声明的标识符
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\course.cpp(136): error C2228: “.find”的左边必须有类/结构/联合
+                 类型是“'unknown-type'”
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\course.cpp(136): error C2228: “.end”的左边必须有类/结构/联合
+                 类型是“'unknown-type'”
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\course.cpp(144): error C2065: “gradeList”: 未声明的标识符
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\course.cpp(144): error C2228: “.erase”的左边必须有类/结构/联合
+                 类型是“'unknown-type'”
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\course.cpp(159): error C2264: “CCourse::CheckLevel”: 函数定义或声明中有错误；未调用函数
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\course.cpp(161): error C2065: “gradeList”: 未声明的标识符
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\course.cpp(161): error C2228: “.find”的左边必须有类/结构/联合
+                 类型是“'unknown-type'”
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\course.cpp(161): error C2228: “.end”的左边必须有类/结构/联合
+                 类型是“'unknown-type'”
+     1>f:\users\meng\documents\visual studio 2012\projects\studentmanagementsystem\studentmanagementsystem\course.cpp(171): error C2065: “gradeList”: 未声明的标识符
+         正在生成代码...
+     1>已完成生成项目“F:\Users\MENG\Documents\visual studio 2012\Projects\StudentManagementSystem\StudentManagementSystem\StudentManagementSystem.vcxproj”(Build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:02.78
